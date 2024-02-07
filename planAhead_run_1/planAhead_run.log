@@ -1,0 +1,171 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -349 day(s)
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /home/mneoacme/mneoacme/decodes/pa.fromHdl.tcl
+# create_project -name decodes -dir "/home/mneoacme/mneoacme/decodes/planAhead_run_1" -part xc3s1200efg320-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "decodd.ucf" [current_fileset -constrset]
+Adding file '/home/mneoacme/mneoacme/decodes/decodd.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {../Downloads/decod7seg_4dig.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {dcd38.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {decodd.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top decodd $srcset
+# add_files [list {decodd.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s1200efg320-4
+Using Verific elaboration
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "/home/mneoacme/mneoacme/Downloads/decod7seg_4dig.vhd" into library work
+Parsing VHDL file "/home/mneoacme/mneoacme/decodes/dcd38.vhd" into library work
+Parsing VHDL file "/home/mneoacme/mneoacme/decodes/decodd.vhd" into library work
+CRITICAL WARNING: [EDIF 20-96] Could not resolve non-primitive black box cell 'dcd38' instantiated as 'decodificador' [/home/mneoacme/mneoacme/decodes/decodd.vhd:84]
+Resolution: File names need to match cell names: an EDIF definition will be found in dcd38.edf; an HDL definition may be placed in any Verilog/VHDL file.
+INFO: [Designutils 20-910] Reading macro library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/xc3s1200e/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/xc3s1200e/ClockBuffers.xml
+Loading package from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/xc3s1200e/fg320/Package.xml
+Loading io standards from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/xc3s1200e/fg320/SSORules.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [/home/mneoacme/mneoacme/decodes/decodd.ucf]
+Finished Parsing UCF File [/home/mneoacme/mneoacme/decodes/decodd.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 0aead666
+open_rtl_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 2856.355 ; gain = 95.227
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin G18 [get_ports {p[2]}]
+endgroup
+startgroup
+set_property package_pin H18 [get_ports {p[1]}]
+endgroup
+startgroup
+set_property package_pin K18 [get_ports {p[0]}]
+endgroup
+startgroup
+set_property package_pin J14 [get_ports AN0]
+endgroup
+startgroup
+set_property package_pin J14 [get_ports AN0]
+endgroup
+startgroup
+set_property package_pin J15 [get_ports AN1]
+endgroup
+startgroup
+set_property package_pin K15 [get_ports AN2]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports AN3]
+endgroup
+startgroup
+set_property package_pin E16 [get_ports CA]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports CB]
+endgroup
+startgroup
+set_property package_pin E4 [get_ports CC]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports CD]
+endgroup
+set_property package_pin "" [get_ports [list  AN0]]
+set_property package_pin "" [get_ports [list  AN0]]
+set_property package_pin "" [get_ports [list  AN1]]
+set_property package_pin "" [get_ports [list  AN2]]
+set_property package_pin "" [get_ports [list  AN3]]
+set_property package_pin "" [get_ports [list  CA]]
+set_property package_pin "" [get_ports [list  CB]]
+set_property package_pin "" [get_ports [list  CC]]
+set_property package_pin "" [get_ports [list  CD]]
+set_property package_pin "" [get_ports [list  {s[7]}]]
+startgroup
+set_property package_pin J14 [get_ports {s[7]}]
+endgroup
+startgroup
+set_property package_pin J15 [get_ports {s[6]}]
+endgroup
+startgroup
+set_property package_pin K15 [get_ports {s[5]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {s[4]}]
+endgroup
+startgroup
+set_property package_pin E16 [get_ports {s[3]}]
+endgroup
+startgroup
+set_property package_pin P16 [get_ports {s[2]}]
+endgroup
+startgroup
+set_property package_pin E4 [get_ports {s[1]}]
+endgroup
+startgroup
+set_property package_pin P4 [get_ports {s[0]}]
+endgroup
+startgroup
+set_property package_pin F17 [get_ports AN0]
+endgroup
+startgroup
+set_property package_pin H17 [get_ports AN1]
+endgroup
+startgroup
+set_property package_pin C18 [get_ports AN2]
+endgroup
+startgroup
+set_property package_pin F15 [get_ports AN3]
+endgroup
+startgroup
+set_property package_pin L18 [get_ports CA]
+endgroup
+startgroup
+set_property package_pin F18 [get_ports CB]
+endgroup
+startgroup
+set_property package_pin D17 [get_ports CC]
+endgroup
+startgroup
+set_property package_pin D16 [get_ports CD]
+endgroup
+startgroup
+set_property package_pin G14 [get_ports CE]
+endgroup
+startgroup
+set_property package_pin J17 [get_ports CF]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports CG]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports CLK_50MHz]
+endgroup
+startgroup
+set_property package_pin C17 [get_ports DP]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon May 15 14:38:49 2023...
+INFO: [Common 17-83] Releasing license: PlanAhead

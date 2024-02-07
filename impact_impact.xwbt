@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/mneoacme/mneoacme/decodes/impact.xsl
+OUTFILE=/home/mneoacme/mneoacme/decodes/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/home/mneoacme/mneoacme/decodes
+LICENSE=iMPACT
+USER_INFO=iMPACT

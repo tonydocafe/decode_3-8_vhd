@@ -1,0 +1,6 @@
+AR decodd behavioral /home/mneoacme/mneoacme/decodes/decodd.vhd sub00/vhpl05 1684173199
+AR dcd38 behavioral /home/mneoacme/mneoacme/decodes/dcd38.vhd sub00/vhpl01 1684173195
+EN dcd38 NULL /home/mneoacme/mneoacme/decodes/dcd38.vhd sub00/vhpl00 1684173194
+EN decodd NULL /home/mneoacme/mneoacme/decodes/decodd.vhd sub00/vhpl04 1684173198
+EN decod7seg_4dig NULL /home/mneoacme/mneoacme/Downloads/decod7seg_4dig.vhd sub00/vhpl02 1684347561
+AR decod7seg_4dig behavioral /home/mneoacme/mneoacme/Downloads/decod7seg_4dig.vhd sub00/vhpl03 1684347562

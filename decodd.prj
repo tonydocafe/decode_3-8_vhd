@@ -1,0 +1,3 @@
+vhdl work "../Downloads/decod7seg_4dig.vhd"
+vhdl work "dcd38.vhd"
+vhdl work "decodd.vhd"

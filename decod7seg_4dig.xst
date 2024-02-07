@@ -1,0 +1,5 @@
+set -tmpdir "/home/mneoacme/mneoacme/decodes/xst/projnav.tmp"
+set -xsthdpdir "/home/mneoacme/mneoacme/decodes/xst"
+elaborate
+-ifn decod7seg_4dig.prj
+-ifmt mixed

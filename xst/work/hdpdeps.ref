@@ -1,0 +1,19 @@
+V3 11
+FL /home/mneoacme/mneoacme/decodes/dcd38.vhd 2023/05/15.14:52:07 P.20131013
+EN work/dcd38 1684173194 FL /home/mneoacme/mneoacme/decodes/dcd38.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/dcd38/Behavioral 1684173195 \
+      FL /home/mneoacme/mneoacme/decodes/dcd38.vhd EN work/dcd38 1684173194
+FL /home/mneoacme/mneoacme/decodes/decodd.vhd 2023/05/15.14:53:10 P.20131013
+EN work/decodd 1684173198 FL /home/mneoacme/mneoacme/decodes/decodd.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/decodd/Behavioral 1684173199 \
+      FL /home/mneoacme/mneoacme/decodes/decodd.vhd EN work/decodd 1684173198 \
+      CP dcd38 CP decod7seg_4dig
+FL /home/mneoacme/mneoacme/Downloads/decod7seg_4dig.vhd 2023/05/10.15:29:49 P.20131013
+EN work/decod7seg_4dig 1684347561 \
+      FL /home/mneoacme/mneoacme/Downloads/decod7seg_4dig.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/decod7seg_4dig/Behavioral 1684347562 \
+      FL /home/mneoacme/mneoacme/Downloads/decod7seg_4dig.vhd \
+      EN work/decod7seg_4dig 1684347561

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/mneoacme/mneoacme/decodes/decodd.ncd
+OUTFILE=/home/mneoacme/mneoacme/decodes/decodd.bit
+FAMILY=Spartan3E
+PART=xc3s1200e-4fg320
+WORKINGDIR=/home/mneoacme/mneoacme/decodes
+LICENSE=WebPack
+USER_INFO=211812711_0_0_977
